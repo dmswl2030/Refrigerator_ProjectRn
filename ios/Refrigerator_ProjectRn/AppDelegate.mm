@@ -1,4 +1,7 @@
 #import "AppDelegate.h"
+#import <Firebase.h>
+
+...
 
 #import <React/RCTBundleURLProvider.h>
 
@@ -6,6 +9,14 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
+  #ifdef FB_SONARKIT_ENABLED
+    InitializeFlipper(application);
+  #endif
+
+  if ([FIRApp defaultApp] == nil) { // 추가 (line:35)
+    [FIRApp configure];
+  }
+
   self.moduleName = @"Refrigerator_ProjectRn";
   // You can add your custom initial props in the dictionary below.
   // They will be passed down to the ViewController used by React Native.

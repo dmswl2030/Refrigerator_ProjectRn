@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "107053057679",
+    "project_id": "take-it-out-eat",
+    "storage_bucket": "take-it-out-eat.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:107053057679:android:d683edb5c7552d4b0352fa",
+        "android_client_info": {
+          "package_name": "com.takeitouteat"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "107053057679-5cu3u3ajc4o28nr5lv0tueo4j1jnhiam.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.takeitouteat",
+            "certificate_hash": "5e8f16062ea3cd2c4a0d547876baa6f38cabf625"
+          }
+        },
+        {
+          "client_id": "107053057679-85h5ui4rrj2qspl9b6ce33sg2b1gk1q5.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDQVpbgALHmFuer2uUTqeuWXLmDNWEWiZ0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "107053057679-85h5ui4rrj2qspl9b6ce33sg2b1gk1q5.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
